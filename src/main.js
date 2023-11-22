@@ -1,2 +1,6 @@
-let joao = 1;
-let maria = 2;
+import { getMaria, getJoao } from "./joaoEMaria.js"
+
+console.log('MAIN');
+let maria = getMaria();
+let joao = getJoao();
+console.log(maria,joao);
