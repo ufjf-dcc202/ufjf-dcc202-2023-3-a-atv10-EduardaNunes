@@ -2,11 +2,21 @@ let joao = 1;
 let maria = 2;
 
 function setJoao(valor){
-    joao = valor;
+    if(joao >= 0){
+        joao = valor;
+    }else{
+        joao = 0;
+    }
+
 }
 
 function setMaria(valor){
-    maria = valor;
+    if(maria >= 0){
+        maria = valor;
+    }else{
+        maria = 0;
+    }
+
 }
 
 function getMaria(){
